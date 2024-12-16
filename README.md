@@ -9,7 +9,7 @@ This is a Chrome extension that summarizes the content of webpages using the Gem
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/webpage-summarizer.git
+   git clone https://github.com/Tanush-banchhod/webpage-summarizer.git
 2. Open Chrome and navigate to chrome://extensions/.
 
 3. Enable Developer mode.
