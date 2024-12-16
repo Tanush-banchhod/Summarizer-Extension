@@ -21,7 +21,7 @@ document.getElementById('summarize').addEventListener('click', () => {
   }
   
   async function summarizeContent(text) {
-    const geminiApiKey = 'AIzaSyA1Md-seiKgN0D5SfPK4ctpb6Wn1KkjCGs';
+    const geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
     const geminiModel = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${geminiApiKey}`;
   
     const payload = { contents: [{ parts: [{ text: text }] }] };
